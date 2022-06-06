@@ -1,0 +1,12 @@
+.title {
+    text-align: center;
+    padding: 1rem;
+}
+
+.todoApp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}

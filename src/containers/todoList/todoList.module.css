@@ -1,0 +1,11 @@
+.todoList {
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+}
+
+.noTodos {
+    text-align: center;
+}
