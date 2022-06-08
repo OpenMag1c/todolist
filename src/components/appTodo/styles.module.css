@@ -1,0 +1,77 @@
+.title {
+    width: 80%;
+    text-align: left;
+    padding: 1rem 0 0 0;
+}
+
+.todoApp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.todoList {
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+}
+
+.noTodos {
+    text-align: center;
+}
+
+.todo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    min-height: 5rem;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    background-color: white;
+    margin: 0.3rem 0;
+}
+
+.todoHidden {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 100%;
+    min-height: 5rem;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    margin: 0.3rem 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrapper {
+    width: 80%;
+    display: flex;
+    background-color: white;
+}
+
+.field {
+    font-size: 1.3em;
+    padding: 1rem;
+    outline: none;
+    border: 0.1rem solid transparent;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem;
+}
+
+.field:hover,
+.field:focus {
+    border: 0.1rem solid #5e81ac;
+}

@@ -15,3 +15,14 @@ body {
     background: linear-gradient(to bottom, #7fdaf4, #5e81ac);
     min-height: 45rem;
 }
+
+::-webkit-scrollbar {
+    width: 0.5rem; /* ширина для вертикального скролла */
+    height: 1rem; /* высота для горизонтального скролла */
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #7fdaf4;
+    border-radius: 9em;
+}
